@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 char randchar(){
+    time_t t;
+    srand(time(&t));
 
-
-
-    int x = rand() % 26;
+    int x = (rand() % 26)+1;
     switch (x) {
         case 1:
             return 'a';
@@ -60,7 +61,7 @@ char randchar(){
         case 26:
             return 'z';
         default:
-            return '1';
+            return 'a';
 
     }
 
