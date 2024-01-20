@@ -3,66 +3,90 @@
 #include <time.h>
 
 char randchar(){
-    time_t t;
-    srand(time(&t));
-
-    int x = (rand() % 26)+1;
-    switch (x) {
+    char x;
+    switch ((rand() % 26)+1) {
         case 1:
-            return 'a';
+            x = 'a';
+            break;
         case 2:
-            return 'b';
+            x = 'b';
+            break;
         case 3:
-            return 'c';
+            x = 'c';
+            break;
         case 4:
-            return 'd';
+            x = 'd';
+            break;
         case 5:
-            return 'e';
+            x = 'e';
+            break;
         case 6:
-            return 'f';
+            x = 'f';
+            break;
         case 7:
-            return 'g';
+            x = 'g';
+            break;
         case 8:
-            return 'h';
+            x = 'h';
+            break;
         case 9:
-            return 'i';
+            x = 'i';
+            break;
         case 10:
-            return 'j';
+            x = 'j';
+            break;
         case 11:
-            return 'k';
+            x = 'k';
+            break;
         case 12:
-            return 'l';
+            x = 'l';
+            break;
         case 13:
-            return 'm';
+            x = 'm';
+            break;
         case 14:
             return 'n';
+            break;
         case 15:
-            return 'o';
+            x = 'o';
+            break;
         case 16:
-            return 'p';
+            x = 'p';
+            break;
         case 17:
-            return 'q';
+            x = 'q';
+            break;
         case 18:
-            return 'r';
+            x = 'r';
+            break;
         case 19:
             return 's';
+            break;
         case 20:
-            return 't';
+            x = 't';
+            break;
         case 21:
-            return 'u';
+            x = 'u';
+            break;
         case 22:
-            return 'v';
+            x = 'v';
+            break;
         case 23:
-            return 'w';
+            x = 'w';
+            break;
         case 24:
-            return 'x';
+            x = 'x';
+            break;
         case 25:
-            return 'y';
+            x = 'y';
+            break;
         case 26:
-            return 'z';
+            x = 'z';
+            break;
         default:
-            return 'a';
-
+            x = 'a';
+            break;
     }
+    return x;
 
 }
