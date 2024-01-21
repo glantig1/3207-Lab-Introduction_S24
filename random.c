@@ -45,7 +45,7 @@ char randchar(){
             x = 'm';
             break;
         case 14:
-            return 'n';
+            x = 'n';
             break;
         case 15:
             x = 'o';
@@ -60,7 +60,7 @@ char randchar(){
             x = 'r';
             break;
         case 19:
-            return 's';
+            x = 's';
             break;
         case 20:
             x = 't';
